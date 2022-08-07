@@ -1,0 +1,10 @@
+/* General CSS Styles */
+@media (max-width: 992px) {
+    /* Navbar */ 
+   .sidebar a {
+     font-size: 1rem;
+   }
+   /* #sidebar-show {
+    display: none !important;
+   } */
+}
