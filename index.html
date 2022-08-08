@@ -40,18 +40,20 @@
                             الرئيسية
                         </a>
                     </li>
-                    <li class="nav-item my-2">
-                        <a class="nav-link pe-0" href="#">
-                            <i class="fa-solid fa-newspaper me-1"></i>
-                            الأخبار
-                        </a>
+                    <li class="nav-item sidebar-dropdown mt-2">
+                        <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#demo"><i class="fa-solid fa-newspaper me-1"></i>
+                            الأخبار</a>
                     </li>
-                    <li class="nav-item my-2">
-                        <a class="nav-link pe-0" href="#">
-                            <i class="fa-solid fa-money-check-dollar me-1"></i>
-                            أسعار العمولات
-                        </a>
-                    </li>
+                        <div id="demo" class="collapse pt-0">
+                            <ul class="nav flex-column sidebar-dropdown-bg ">
+                                <li class="nav-item border-bottom border-light">
+                                    <a class="nav-link ms-2" href="#"><i class="fa-solid fa-newspaper me-2"></i>الأقسام</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link ms-2" href="#"><i class="fa-solid fa-newspaper me-2"></i>الأخبار</a>
+                                </li>
+                            </ul>
+                        </div>
                     <li class="nav-item my-2">
                         <a class="nav-link pe-0" href="#">
                             <i class="fa-solid fa-user-group me-1"></i>
@@ -79,16 +81,16 @@
                     <button class="btn mx-2" onclick="myFunction()"><i class="fa-solid fa-bars fa-2x"></i></button>
                     <div style="align-self: center;" class="mx-2">
                         <div class="d-flex align-items-center">
-                            <i class="fa-regular fa-circle-user fa-2x me-2"></i>
+                            <i class="fa-regular fa-circle-user fa-2x me-3"></i>
                             <h6 class="mb-0 me-4 d-md-none d-none d-lg-block">اسم المستخدم</h6>
-                            <i class="fa-solid fa-gear fa-2x me-2 me-md-2 md-lg-4"></i>
-                            <i class="fa-solid fa-right-from-bracket fa-2x me-2 text-danger"></i>
+                            <i class="fa-solid fa-gear fa-2x me-3 me-md-3 md-lg-4"></i>
+                            <i class="fa-solid fa-right-from-bracket fa-2x me-3 text-danger"></i>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="body">
-                <div class="container-fluid mt-5 ms-2">
+                <div class="container-fluid mt-5 ps-3">
                     <h4 class="fw-bold text-muted">محتوى الصفحة</h4>
                 </div>
             </section>

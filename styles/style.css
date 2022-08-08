@@ -51,6 +51,23 @@ body {
 .active {
     border-right: 7px solid var(--accent-color);
 }
+.sidebar .sidebar-dropdown a::after {
+    content: "\f0d9";
+    font-family: FontAwesome;
+    float: left;
+    /* ar-style */
+    /* padding-left: 10px;
+    right: 15px; */
+  }
+  
+  .sidebar-dropdown-bg {
+    background-color: #aa9131;
+  }
+  
+  .sidebar .sidebar-dropdown  a[aria-expanded="true"]::after {
+    content: "\f0d8";
+    /* color: var(--primary-color) */
+  }
 /* ----------------------------------------------------- */
 /* Nav Header */
 #nav-header button:hover, button:active ,button {
